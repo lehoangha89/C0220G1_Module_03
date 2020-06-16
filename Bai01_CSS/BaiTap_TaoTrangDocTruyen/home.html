@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url("img/hinhnen.jpg");
+            background-color: #cccccc;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .button{
+            background-color: orange;
+        }
+        #head {
+            height: 50px;
+            margin-bottom: 5px;
+            text-align: left;
+            color: white;
+        }
+        .head-link {
+            margin: 5px;
+            background-color: white;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: 1px solid black;
+            width: 100%;
+        }
+        .column {
+            float: left;
+            padding: 10px;
+        }
+        .column.a {
+            margin: 15px 0px 5px 5px;
+            border: 1px solid black;
+            background-color: white;
+            width: 20%;
+        }
+        .column.center {
+            /*border: 1px solid black;*/
+            width: 75%;
+            /*height: 600px;*/
+
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        ul.a {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        div.gallery {
+            margin: 5px;
+            /*border: 1px solid #ccc;*/
+            float: left;
+            width: 180px;
+        }
+        div.desc {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        input[type=text] {
+            width: 130px;
+            height: 10px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 35px;
+            transition: width 0.4s ease-in-out;
+        }
+        input[type=text]:focus {
+            width: 50%;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            .column.center{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="head">
+    <h1>Truyện</h1>
+</div>
+
+<div class="head-link">
+    <form style="float: right">
+        <input type="text" name="search" placeholder="Search..">
+        <button type="submit">Tìm Kiếm Truyện</button>
+    </form>
+    <button class="button">Trang Chủ</button>
+    <button>Trinh Thám</button>
+    <a href="#">Truyện Kiếm Hiệp</a>
+    <a href="#">Truyện Mới</a>
+    <a href="#">Truyện Tranh</a>
+</div>
+<div class="row">
+    <ul class="column a">
+        <li><a href="#"> Trinh Thám</a></li>
+        <li>Truyện Kiếm Hiệp</li>
+        <li>Truyện Tranh</li>
+        <li>Truyện Tranh</li>
+        <li>Truyện Tranh</li>
+    </ul>
+    <div class="column center">
+        <div class="gallery">
+            <a target="_blank" href="img/trinhtham.jpg">
+                <img src="img/trinhtham.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Sherlock Holmes</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/kiemhiep.jpg">
+                <img src="img/kiemhiep.jpg" alt="Cinque Terre" width="180" height="100">
+            </a>
+            <div class="desc">Tàn Chi Lệnh</div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>Footer</p>
+</div>
+</body>
+</html>

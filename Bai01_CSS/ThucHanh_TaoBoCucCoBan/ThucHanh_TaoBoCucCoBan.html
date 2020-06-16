@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .header {
+            background-color: #ba9bff;
+            border: 3px;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            margin: 5px;
+        }
+
+        .head-link {
+            background-color: #4CAF50;
+            padding: 30px;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .left {
+            background-color: #af303c;
+            width: 20%;
+            height: 200px;
+            padding: 30px;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            float: left;
+        }
+
+        .center {
+            background-color: aqua;
+            width: 50%;
+            height: 200px;
+            padding: 30px;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            float: left;
+        }
+
+        /*.right {*/
+        /*    background-color: #af303c;*/
+        /*    width: 175px;*/
+        /*    height: 200px;*/
+        /*    padding: 30px;*/
+        /*    margin: 5px;*/
+        /*    text-align: center;*/
+        /*    color: white;*/
+        /*    float: left;*/
+        /*}*/
+        .footer {
+            background-color: #af303c;
+            width: 1370px;
+            height: 20px;
+            margin: 5px;
+            text-align: center;
+            color: white;
+
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .left .center .right {
+                width: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="header">
+    Header
+</div>
+<div class="head-link">
+    head link
+</div>
+<div class="body">
+    <div class="left">
+        <h3>left</h3>
+    </div>
+    <div class="center">
+        <h2>center</h2>
+    </div>
+    <div class="left">
+        <h3>right</h3>
+    </div>
+</div>
+<div class="footer">
+    <h3>footer</h3>
+</div>
+</body>
+</html>
