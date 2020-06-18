@@ -1,0 +1,14 @@
+<h1>Calculator</h1>
+<input type="number" [(ngModel)]="firstNumber">
+<select [value]="operator" (change)="changeOperator($event.target.value)">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<input type="number" [(ngModel)]="secondNumber">
+<button (click)="calculate()">Tinh Toan</button>
+<div>
+  <h3 id="kq">{{ketqua}}</h3>
+</div>
+

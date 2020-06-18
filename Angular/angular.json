@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "BaiTap-Calculator": {
+    "Angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/BaiTap-Calculator",
+            "outputPath": "dist/Angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -62,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "BaiTap-Calculator:build"
+            "browserTarget": "Angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "BaiTap-Calculator:build:production"
+              "browserTarget": "Angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "BaiTap-Calculator:build"
+            "browserTarget": "Angular:build"
           }
         },
         "test": {
@@ -88,13 +92,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -114,19 +114,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "BaiTap-Calculator:serve"
+            "devServerTarget": "Angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "BaiTap-Calculator:serve:production"
+              "devServerTarget": "Angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "BaiTap-Calculator",
+  "defaultProject": "Angular",
   "cli": {
-    "analytics": "103dd6bf-f7c0-47ff-a835-bf144c1c605f"
+    "analytics": "cb110801-6f22-4946-87c4-e6718a548951"
   }
 }
