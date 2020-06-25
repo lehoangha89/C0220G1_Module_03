@@ -1,8 +1,8 @@
 <h2>Color Picker</h2>
 <div>
   <label>Chọn màu:</label>
-  <input [value]="background" type="color" (change)="onChange($event.target.value)">
+  <input [value]="background" type="color" (change)="onChange($event)">
 </div>
 
 <p>Output:</p>
-<div style="height: 80px; width: 200px; border: 2px solid" class="color-preview" [style.background]="background"></div>
+<div style="height: 80px; width: 200px; border: 2px solid" [style.background]="background"></div>

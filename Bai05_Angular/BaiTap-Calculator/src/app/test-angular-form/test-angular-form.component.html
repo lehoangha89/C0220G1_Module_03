@@ -1,0 +1,7 @@
+<div class="form">
+  <input #email placeholder="Email" [(ngModel)]="emaila" /><br>
+  <input #pass type="password" placeholder="Password" [(ngModel)]="password" /><br>
+  <button (click)="submit(email.value, pass.value)">Submit</button>
+</div>
+{{emaila}}
+{{password}}

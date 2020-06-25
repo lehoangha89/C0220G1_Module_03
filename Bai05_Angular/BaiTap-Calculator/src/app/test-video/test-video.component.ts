@@ -18,7 +18,7 @@ export class TestVideoComponent implements OnInit {
   }
 
   showEvent(event) {
-    this.name = event;
+    this.name = event.target.value;
   }
   updateImage(image) {
     this.imageUrl = image;

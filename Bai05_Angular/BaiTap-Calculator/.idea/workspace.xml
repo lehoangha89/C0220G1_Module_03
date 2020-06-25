@@ -2,100 +2,358 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a937ac-306b-47c4-b6fc-7aa3d36861be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/test-calculator/test-calculator.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/test-calculator/test-calculator.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/test-calculator/test-calculator.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/test-calculator/test-calculator.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-name-card/thuchanh-name-card.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-name-card/thuchanh-name-card.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-name-card/thuchanh-name-card.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-name-card/thuchanh-name-card.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-progress-bar/thuchanh-progress-bar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-progress-bar/thuchanh-progress-bar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-progress-bar/thuchanh-progress-bar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-progress-bar/thuchanh-progress-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-registration/app-registration.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-registration/app-registration.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-registration/app-registration.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-registration/app-registration.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-detail/baitap-dictionary-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-detail/baitap-dictionary-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-detail/baitap-dictionary-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-detail/baitap-dictionary-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-page/baitap-dictionary-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-page/baitap-dictionary-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-page/baitap-dictionary-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary-page/baitap-dictionary-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary/baitap-dictionary.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary/baitap-dictionary.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary/baitap-dictionary.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-dictionary/baitap-dictionary.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/baitap-img-slider.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/baitap-img-slider.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/baitap-img-slider.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/baitap-img-slider.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/baitap-img-slider.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/img-slide/img-slide.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/img-slide/img-slide.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/img-slide/img-slide.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-angular-form/test-angular-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-angular-form/test-angular-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-angular-form/test-angular-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-angular-form/test-angular-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-child/test-input-child.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-child/test-input-child.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-child/test-input-child.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-child/test-input-child.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-parent/test-input-parent.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-parent/test-input-parent.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-parent/test-input-parent.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-input-parent/test-input-parent.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-ng-for/test-ng-for.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-ng-for/test-ng-for.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-ng-for/test-ng-for.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/test-ng-for/test-ng-for.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-detail/thuchanh-blog-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-detail/thuchanh-blog-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-detail/thuchanh-blog-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-detail/thuchanh-blog-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-edit/thuchanh-blog-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-edit/thuchanh-blog-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-edit/thuchanh-blog-edit.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog-edit/thuchanh-blog-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog/thuchanh-blog.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog/thuchanh-blog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog/thuchanh-blog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-blog/thuchanh-blog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-date-util.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-date-util.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/image-card/image-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/image-card/image-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/image-card/image-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/image-card/image-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/thuchanh-image-gallery.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/thuchanh-image-gallery.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/thuchanh-image-gallery.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/thuchanh-image-gallery.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/thuchanh-image-gallery.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-image-gallery/token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-post.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-post.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-timelines/thuchanh-timelines.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-timelines/thuchanh-timelines.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-timelines/thuchanh-timelines.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-timelines/thuchanh-timelines.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-ungdung-todo/thuchanh-ungdung-todo.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-ungdung-todo/thuchanh-ungdung-todo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-ungdung-todo/thuchanh-ungdung-todo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-ungdung-todo/thuchanh-ungdung-todo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-player/thuchanh-youtube-player.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-player/thuchanh-youtube-player.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-player/thuchanh-youtube-player.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-player/thuchanh-youtube-player.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-playlist/thuchanh-youtube-playlist.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-playlist/thuchanh-youtube-playlist.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-playlist/thuchanh-youtube-playlist.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube-playlist/thuchanh-youtube-playlist.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/thuchanh-youtube.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/RELEASE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/a11y.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/airplay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/chromecast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/end.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/markers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/markersrolls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/mediaelement.vtt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/multiple1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/multiple2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/playlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/postroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/quality.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/vast_sample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/demo/vrview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/a11y-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/a11y.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/a11y.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/a11y.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/a11y.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/audio-description-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/a11y/video-description-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads-vast-vpaid/ads-vast-vpaid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads-vast-vpaid/ads-vast-vpaid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads/ads-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads/ads.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads/ads.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads/ads.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/ads/ads.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/airplay/airplay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/chromecast/chromecast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/context-menu/context-menu-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/context-menu/context-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/context-menu/context-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/context-menu/context-menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/context-menu/context-menu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/facebook-pixel/facebook-pixel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/facebook-pixel/facebook-pixel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/frameNavigator/frameNavigator-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/frameNavigator/frameNavigator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/frameNavigator/frameNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/frameNavigator/frameNavigator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/google-analytics/google-analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/google-analytics/google-analytics.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jump-forward-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jump-forward.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jump-forward.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jump-forward.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jump-forward.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jumpforward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/jump-forward/jumpforward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/loop/loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/markers/markers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/markers/markers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/markersrolls/markersrolls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/markersrolls/markersrolls.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/picture-in-picture/picture-in-picture-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/picture-in-picture/picture-in-picture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist-controls.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/playlist/playlist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/postroll/postroll-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/postroll/postroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/postroll/postroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/postroll/postroll.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/postroll/postroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/preview/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/preview/preview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/quality/quality-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/quality/quality.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/quality/quality.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/quality/quality.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/quality/quality.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skip-back-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skip-back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skip-back.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skip-back.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skip-back.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skipback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/skip-back/skipback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/snapshot/snapshot-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/snapshot/snapshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/source-chooser-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/source-chooser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/source-chooser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/source-chooser.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/source-chooser/source-chooser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/speed/speed-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/speed/speed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/speed/speed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/speed/speed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/speed/speed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/stop/stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/cardboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/cardboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/vrview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/vrview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/vrview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/dist/vrview/vrview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/a11y.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/ads-vast.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/ads.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/airplay.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/chromecast.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/context-menu.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/facebook-pixel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/google-analytics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/google-tag-manager.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/jump-forward.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/loop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/markers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/markersrolls.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/picture-in-picture.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/playlist.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/postroll.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/preview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/quality.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/skip-back.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/snapshot.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/source-chooser.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/speed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/stop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/docs/vrview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/a11y/a11y-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/a11y/a11y.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/a11y/a11y.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/a11y/audio-description-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/a11y/video-description-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/ads-vast-vpaid/ads-vast-vpaid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/ads/ads-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/ads/ads.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/ads/ads.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/airplay/airplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/airplay/airplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/airplay/airplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/airplay/airplay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/chromecast/chromecast.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/chromecast/chromecast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/chromecast/chromecast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/chromecast/chromecast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/chromecast/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/context-menu/context-menu-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/context-menu/context-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/context-menu/context-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/facebook-pixel/facebook-pixel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/google-analytics/google-analytics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/google-tag-manager/google-tag-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/jump-forward/jump-forward-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/jump-forward/jump-forward.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/jump-forward/jump-forward.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/jump-forward/jumpforward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/jump-forward/jumpforward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/loop/loop-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/loop/loop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/loop/loop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/loop/loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/loop/loop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/markers/markers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/markersrolls/markersrolls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/picture-in-picture/picture-in-picture-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/picture-in-picture/picture-in-picture.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/picture-in-picture/picture-in-picture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/picture-in-picture/picture-in-picture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/playlist/playlist-controls.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/playlist/playlist-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/playlist/playlist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/playlist/playlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/postroll/postroll-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/postroll/postroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/postroll/postroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/preview/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/quality/quality-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/quality/quality.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/quality/quality.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/skip-back/skip-back-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/skip-back/skip-back.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/skip-back/skip-back.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/skip-back/skipback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/skip-back/skipback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/snapshot-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/snapshot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/snapshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/snapshot/snapshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/source-chooser/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/source-chooser/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/source-chooser/source-chooser-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/source-chooser/source-chooser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/source-chooser/source-chooser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/speed/speed-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/speed/speed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/speed/speed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/stop/stop-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/stop/stop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/stop/stop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/stop/stop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/vrview/cardboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/vrview/cardboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/vrview/vrview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mediaelement-mediaelement-plugins-dd6fdce/src/vrview/vrview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mp3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai03_JQuery/BaiTap_UngDungNgheNhac/mp3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai03_JQuery/test.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/new-conponent/new-conponent.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/new-conponent/new-conponent.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/new-conponent/new-conponent.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/app/new-conponent/new-conponent.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-change-font-size/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/font-size-editor/font-size-editor.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/font-size-editor/font-size-editor.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/font-size-editor/font-size-editor.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/font-size-editor/font-size-editor.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/pet/pet.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/pet/pet.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/pet/pet.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/app/pet/pet.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/calculator/calculator.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/calculator/calculator.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/calculator/calculator.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/baitap-img-slider/img-slide/img-slide.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/calculator/calculator.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/color-picker/color-picker.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/color-picker/color-picker.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/color-picker/color-picker.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/color-picker/color-picker.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test-video/test-video.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test-video/test-video.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/test-video/test-video.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/test-video/test-video.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +376,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -175,44 +433,63 @@
       <workItem from="1592378490886" duration="650000" />
       <workItem from="1592379151069" duration="2390000" />
       <workItem from="1592385721759" duration="3376000" />
-      <workItem from="1592446928370" duration="1457000" />
+      <workItem from="1592446928370" duration="2877000" />
+      <workItem from="1592468275824" duration="6135000" />
+      <workItem from="1592486996401" duration="11274000" />
+      <workItem from="1592529403588" duration="11665000" />
+      <workItem from="1592553952492" duration="5568000" />
+      <workItem from="1592659106458" duration="7593000" />
+      <workItem from="1592789498449" duration="10944000" />
+      <workItem from="1592813594191" duration="5578000" />
+      <workItem from="1592835032983" duration="901000" />
+      <workItem from="1592875083395" duration="8505000" />
+      <workItem from="1592885118108" duration="1070000" />
+      <workItem from="1592898867570" duration="12000" />
+      <workItem from="1592898904078" duration="2160000" />
+      <workItem from="1592961458066" duration="8900000" />
+      <workItem from="1592986021202" duration="7744000" />
+      <workItem from="1593048559046" duration="85000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1592381541131">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1593048641345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592381541131" />
-    <state width="1515" height="187" key="GridCell.Tab.0.bottom" timestamp="1592447587147">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593048641345" />
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom" timestamp="1592994157306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592447587147" />
-    <state width="1515" height="187" key="GridCell.Tab.0.center" timestamp="1592447587147">
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592994157306" />
+    <state width="1515" height="187" key="GridCell.Tab.0.center" timestamp="1592994157306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592447587147" />
-    <state width="1515" height="187" key="GridCell.Tab.0.left" timestamp="1592447587146">
+    <state width="1515" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592994157306" />
+    <state width="1515" height="187" key="GridCell.Tab.0.left" timestamp="1592994157306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592447587146" />
-    <state width="1515" height="187" key="GridCell.Tab.0.right" timestamp="1592447587147">
+    <state width="1515" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592994157306" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right" timestamp="1592994157306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592447587147" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592994157306" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1592379139529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592379139529" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592388477949">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1592792618147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592388477949" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592792618147" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592815154018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592815154018" />
   </component>
 </project>

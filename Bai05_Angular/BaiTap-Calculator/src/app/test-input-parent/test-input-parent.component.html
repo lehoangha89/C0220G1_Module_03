@@ -1,0 +1,5 @@
+<h1>Test Input</h1>
+<div *ngFor="let info of arrayInformation" class="input">
+  <h3 [hidden]="!show">test-output-parent</h3>
+  <app-test-input-child [name]="info.name" [province]="info.province" (myClick)="show=!show"></app-test-input-child>
+</div>

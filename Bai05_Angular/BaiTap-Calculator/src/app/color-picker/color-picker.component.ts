@@ -13,6 +13,6 @@ export class ColorPickerComponent implements OnInit {
   ngOnInit(): void {
   }
   onChange(value) {
-    this.background = value;
+    this.background = value.target.value;
   }
 }

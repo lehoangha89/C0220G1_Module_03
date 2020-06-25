@@ -1,9 +1,10 @@
 <h1>test kí tự</h1>
-<input (keyup)="showEvent($event.target.value)">
+<input (keyup)="showEvent($event)">
 <label style="color: crimson">{{name}}</label>
 <br>
 <h1>test button</h1>
 <button (click)="forgot=!forgot">Toggle</button>
 <input type="url" placeholder="url change image">
-<button (change)="updateImage($event.target.value)">Change</button><br>
+<button (change)="updateImage($event.target.value)">Change</button>
+<br>
 <img [src]="imageUrl" style="max-width: 30%" [hidden]="forgot">

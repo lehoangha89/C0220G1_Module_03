@@ -1,0 +1,14 @@
+<h1>Test *ngFor</h1>
+<div [hidden]="forgot">
+  <input placeholder="En" [(ngModel)]="newEn"/><br>
+  <input placeholder="Vn" [(ngModel)]="newVn"/><br>
+  <button (click)="addWord()">Click</button>
+</div>
+<button (click)="forgot=!forgot" *ngIf="forgot">Show Form</button>
+
+<div *ngFor="let word of arrWords" class="word">
+  <h4 [ngStyle]="{color: word.memorized? 'green': 'red'} ">
+    {{word.en}}</h4>
+  <p>{{word.vn}}</p>
+  <button (click)="remove(word.id)">Clean</button>
+</div>

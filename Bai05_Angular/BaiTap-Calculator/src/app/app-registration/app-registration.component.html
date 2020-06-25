@@ -1,0 +1,127 @@
+<h2 class="text-center">User registration</h2>
+<form [formGroup]="dangky" (ngSubmit)="submit()" class="col-md-6 offset-md-3">
+  <div class="form-group row">
+    <label class="col">
+      Email
+      <input type="email" class="form-control" formControlName="email">
+    </label>
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.get('email').invalid && dangky.get('email').touched">
+
+    <p *ngIf="dangky.get('email').hasError('required')"> Không đc để trống!!!</p>
+
+    <p *ngIf="dangky.get('email').hasError('pattern')">Định dạng không chính xác!</p>
+
+  </div>
+
+  <fieldset formGroupName="pwGroup">
+    <div class="form-group row">
+      <label class="col">
+        Mật khẩu
+        <input type="password" class="form-control" formControlName="password">
+      </label>
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="dangky.get('pwGroup').get('password').invalid && dangky.get('pwGroup').get('password').touched">
+      <p *ngIf="dangky.get('pwGroup').get('password').hasError('required') ">Không đc để trống!!!</p>
+
+
+      <p *ngIf="dangky.get('pwGroup').get('password').hasError('minlength') ">Mật khẩu phải lớn hơn 6 kí tự !!!</p>
+
+    </div>
+    <div class="form-group row">
+      <label class="col">
+        Xác nhận mật khẩu
+        <input type="password" class="form-control" formControlName="confirmPassword">
+      </label>
+    </div>
+  </fieldset>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.hasError('passwordnotmatch', ['pwGroup']) &&
+      dangky.get('pwGroup').touched">
+    Mật khẩu không khớp!
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Quốc gia
+      <select formControlName="country" class="form-control">
+        <option value="">Chọn</option>
+        <option value="vn">Việt Nam</option>
+        <option value="us">US</option>
+      </select>
+    </label>
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.get('country').invalid && dangky.get('country').touched">
+    Yêu cầu lựa chọn quốc gia!
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Tuổi
+      <input type="number" class="form-control" formControlName="age">
+    </label>
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.get('age').invalid && dangky.get('age').touched">
+    Trên 18 tuổi mới đc đăng kí
+  </div>
+  <div class="form-group row">
+    <div class="col">
+      Giới tính
+      <label><input type="radio" formControlName="gender" value="male">Male</label>
+      <label><input type="radio" formControlName="gender" value="female">Female</label>
+    </div>
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.get('gender').invalid && dangky.get('gender').touched">
+    Chọn giới tính!
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Sđt
+      <input type="tel" class="form-control" formControlName="phone" placeholder="+841234567890">
+    </label>
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="dangky.get('phone').invalid && dangky.get('phone').touched">
+    <span *ngIf="dangky.get('phone').hasError('required')">Phone is required</span>
+    <span *ngIf="dangky.get('phone').hasError('pattern')">Phone must start with +84 followed by 9 or 10 digits.</span>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-info" type="submit">Đăng kí</button>
+  </div>
+</form>
+
+<pre>
+{{ dangky.value | json}}
+</pre>
+
+<!--<form (ngSubmit)="submit()" [formGroup]="dangky">-->
+<!--  <div>-->
+<!--    Email <br>-->
+<!--    <input type="email" formControlName="email"/><br>-->
+<!--    <p *ngIf="dangky.get('email').hasError('required')-->
+<!--      && dangky.get('email').touched">Lỗi !!!</p>-->
+<!--    <p *ngIf="dangky.get('email').hasError('email')-->
+<!--       && dangky.get('email').touched">k dung dinh dang</p>-->
+<!--  </div>-->
+
+<!--  <fieldset formGroupName="pwGroup">-->
+<!--    <div>-->
+<!--      Mật Khẩu <br>-->
+<!--      <input type="text" formControlName="password"/><br>-->
+<!--      <p *ngIf="dangky.get('pwGroup').get('password').hasError('required')-->
+<!--      && dangky.get('password').touched">Lỗi !!!</p>-->
+
+<!--      <p *ngIf="dangky.get('pwGroup').get('password').hasError('minlength')-->
+<!--      && dangky.get('password').touched">ki tu lon hon 6 !!!</p>-->
+<!--    </div>-->
+
+
+<!--  Xác Nhận Mật Khẩu<br>-->
+<!--  <input type="text" formControlName="confirmPassword"/><br>-->
+<!--  </fieldset>-->
+
+<!--  <div class="alert alert-danger" role="alert" *ngIf="dangky.hasError('passwordnotmatch', ['pwGroup']) &&-->
+<!--      dangky.get('pwGroup').touched">-->
+<!--    Password does not match!-->
+<!--  </div>-->
+
+<!--  <div>-->
+<!--    <input type="submit" value="Đăng Ký"/>-->
+<!--  </div>-->
+<!--</form>-->
